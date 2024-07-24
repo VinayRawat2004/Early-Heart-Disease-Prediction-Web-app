@@ -1,0 +1,32 @@
+Healthy Heart Sample
+
+Age: 55
+Sex: 0 (Female)
+Chest Pain Type (cp): 0 (Typical Angina)
+Resting Blood Pressure (trestbps): 130
+Serum Cholesterol (chol): 200
+Fasting Blood Sugar (fbs): 0 (<= 120 mg/dl)
+Resting Electrocardiographic Results (restecg): 0 (Normal)
+Maximum Heart Rate Achieved (thalach): 150
+Exercise Induced Angina (exang): 0 (No)
+ST Depression Induced by Exercise (oldpeak): 0.0
+Slope of the Peak Exercise ST Segment (slope): 1 (Flat)
+Number of Major Vessels Colored by Fluoroscopy (ca): 0
+Thalassemia (thal): 2 (Normal)
+Unhealthy Heart Sample
+Features:
+
+Age: 60
+Sex: 1 (Male)
+Chest Pain Type (cp): 2 (Non-anginal Pain)
+Resting Blood Pressure (trestbps): 145
+Serum Cholesterol (chol): 280
+Fasting Blood Sugar (fbs): 1 (> 120 mg/dl)
+Resting Electrocardiographic Results (restecg): 1 (Having ST-T Wave Abnormality)
+Maximum Heart Rate Achieved (thalach): 120
+Exercise Induced Angina (exang): 1 (Yes)
+ST Depression Induced by Exercise (oldpeak): 2.0
+Slope of the Peak Exercise ST Segment (slope): 2 (Downsloping)
+Number of Major Vessels Colored by Fluoroscopy (ca): 1
+Thalassemia (thal): 3 (Fixed Defect)
+Input Data:

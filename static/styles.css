@@ -1,0 +1,55 @@
+body {
+    background-image: url('{{ url_for('static', filename='heart_photo.jpg') }}');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #007bff; /* Default heading color */
+    font-family: 'Lobster'; /* Fancy font */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="number"], button[type="submit"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #ffc107;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #e0a800;
+}
+
+.prediction {
+    margin-top: 20px;
+    text-align: center;
+}
